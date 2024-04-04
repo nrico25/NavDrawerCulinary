@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="20dp"
-        android:src="@mipmap/ic_launcher_round" />
+        android:src="@drawable/selena"/>
 
     <!-- User name or other information -->
     <TextView
@@ -40,9 +40,8 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="-1dp"
         android:layout_marginBottom="7dp"
-        android:textAlignment="center"
-        android:fontFamily="@font/poppins_bold"
         android:text="Gold Users"
+        android:textAlignment="center"
         android:textColor="#FADA0B"
         android:textSize="18sp" />
 </RelativeLayout>

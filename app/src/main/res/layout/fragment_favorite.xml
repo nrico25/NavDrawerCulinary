@@ -16,10 +16,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/ic_launcher_background"
+            android:src="@drawable/dhoho"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80000000" />
 
         <TextView
             android:id="@+id/title"
@@ -32,8 +36,8 @@
             android:textSize="32dp"
             android:textStyle="bold"
             android:fontFamily="@font/poppins_bold"
-            android:textColor="@color/white"
-            android:text="Cokro Amsyari" />
+            android:textColor="#FFAA00"
+            android:text="FAVORITE'S MENU'S"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

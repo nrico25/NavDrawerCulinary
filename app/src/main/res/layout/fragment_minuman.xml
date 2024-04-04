@@ -1,10 +1,45 @@
 <!-- res/layout/fragment_home.xml -->
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="center">
+ <androidx.constraintlayout.widget.ConstraintLayout
+     android:layout_width="match_parent"
+     android:layout_height="180dp">
+
+  <ImageView
+      android:id="@+id/imageBanner"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/dhoho"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#80000000" />
+
+  <TextView
+      android:id="@+id/title"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      android:layout_marginBottom="8dp"
+      android:layout_marginHorizontal="16dp"
+      android:textSize="32dp"
+      android:textStyle="bold"
+      android:fontFamily="@font/poppins_bold"
+      android:textColor="#FFAA00"
+      android:text="KEDIRI'S BEVERAGES" />
+
+
+ </androidx.constraintlayout.widget.ConstraintLayout>
 
 
  <androidx.recyclerview.widget.RecyclerView
